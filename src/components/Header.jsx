@@ -21,6 +21,9 @@ function Header() {
         <Link className="header-nav-item" to="/home/clientes">
           Clientes
         </Link>
+        <Link className="header-nav-item" to="/home/crear-producto">
+          Crear Producto
+        </Link>
         <button
           onClick={cerrarSesion}
           className="header-nav-item"
